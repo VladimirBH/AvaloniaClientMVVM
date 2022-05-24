@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Text;
+using AvaloniaClientMVVM.Models;
 using JetBrains.Annotations;
 using ReactiveUI;
 

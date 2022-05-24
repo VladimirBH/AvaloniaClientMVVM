@@ -4,16 +4,43 @@
     <projectFile>AvaloniaClientMVVM/AvaloniaClientMVVM.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9aae2679-c040-44d6-a599-ea6391f6a182" name="Changes" comment="" />
+    <list default="true" id="9aae2679-c040-44d6-a599-ea6391f6a182" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/AvaloniaClientMVVM/Models/DataAuth.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvaloniaClientMVVM/Models/DelegateCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvaloniaClientMVVM/Models/TokenPair.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvaloniaClientMVVM/Models/UserImplementation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvaloniaClientMVVM/Static/KeepRoleId.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvaloniaClientMVVM/Static/PreparedLocalStorage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvaloniaClientMVVM/Styles/LightStyle.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvaloniaClientMVVM/ViewModels/AuthorizationWindowViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvaloniaClientMVVM/ViewModels/SplashScreenViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvaloniaClientMVVM/Views/AuthorizationWindow.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvaloniaClientMVVM/Views/AuthorizationWindow.axaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvaloniaClientMVVM/Views/SplashScreen.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvaloniaClientMVVM/Views/SplashScreen.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AvaloniaClientMVVM/.idea/avalonia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AvaloniaClientMVVM/.idea/avalonia.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AvaloniaClientMVVM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AvaloniaClientMVVM/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaClientMVVM/App.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaClientMVVM/App.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaClientMVVM/App.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaClientMVVM/App.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaClientMVVM/AvaloniaClientMVVM.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaClientMVVM/AvaloniaClientMVVM.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaClientMVVM/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaClientMVVM/Models/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaClientMVVM/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaClientMVVM/ViewModels/MainWindowViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaClientMVVM/ViewModels/ViewModelBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaClientMVVM/ViewModels/ViewModelBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaClientMVVM/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaClientMVVM/Views/MainWindow.axaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8489ec4e912c754ddcf88cc4884f316fa4af18a99482faa1879aceb414bd/Window.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="29bNDRSitt7TCVWdTcBxHlsRjPs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -57,13 +84,28 @@
       <updated>1653377706521</updated>
       <workItem from="1653377714074" duration="1498000" />
       <workItem from="1653381207055" duration="1152000" />
+      <workItem from="1653410288791" duration="1842000" />
+      <workItem from="1653413035553" duration="9165000" />
+      <workItem from="1653426905711" duration="2358000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

@@ -3,7 +3,12 @@
   <component name="AvaloniaProject">
     <option name="projectPerEditor">
       <map>
+        <entry key="AvaloniaClientMVVM/App.axaml" value="AvaloniaClientMVVM/AvaloniaClientMVVM.csproj" />
+        <entry key="AvaloniaClientMVVM/Styles/LightStyle.axaml" value="AvaloniaClientMVVM/AvaloniaClientMVVM.csproj" />
+        <entry key="AvaloniaClientMVVM/ViewModels/MainWindow.axaml" value="AvaloniaClientMVVM/AvaloniaClientMVVM.csproj" />
+        <entry key="AvaloniaClientMVVM/Views/AuthorizationWindow.axaml" value="AvaloniaClientMVVM/AvaloniaClientMVVM.csproj" />
         <entry key="AvaloniaClientMVVM/Views/MainWindow.axaml" value="AvaloniaClientMVVM/AvaloniaClientMVVM.csproj" />
+        <entry key="AvaloniaClientMVVM/Views/SplashScreen.axaml" value="AvaloniaClientMVVM/AvaloniaClientMVVM.csproj" />
       </map>
     </option>
   </component>

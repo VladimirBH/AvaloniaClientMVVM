@@ -1,0 +1,21 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="clr-namespace:AvaloniaClientMVVM.ViewModels"
+        mc:Ignorable="d" d:DesignWidth="350" d:DesignHeight="150"
+        x:Class="AvaloniaClientMVVM.Views.SplashScreen"
+        Title="SplashScreen"
+        Width="350" Height="150" CanResize="False"
+        WindowStartupLocation="CenterScreen"
+        ExtendClientAreaToDecorationsHint="True"
+        ExtendClientAreaChromeHints="NoChrome"
+        ExtendClientAreaTitleBarHeightHint="-1">
+        <Design.DataContext>
+                <vm:SplashScreenViewModel/>
+        </Design.DataContext>
+        <Grid RowDefinitions="1*, 1*">
+                <TextBlock Grid.Row="0" Classes="Title" VerticalAlignment="Center" HorizontalAlignment="Center"> Загрузка... </TextBlock>
+        </Grid>
+        
+</Window>

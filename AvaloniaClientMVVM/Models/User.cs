@@ -8,6 +8,7 @@ public class User : BaseEntity
     
     public string Surname { get; set; }
     
+    
     /*public string Patronymic { get; set; }
     
     public DateTime DateBirth { get; set; }

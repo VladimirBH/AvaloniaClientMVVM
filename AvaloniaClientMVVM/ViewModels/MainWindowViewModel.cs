@@ -18,11 +18,9 @@ namespace AvaloniaClientMVVM.ViewModels
             get => _user;
             set
             {
-                if (value != _user)
-                {
-                    _user = value;
-                    OnPropertyChanged(nameof(User));
-                }
+                if (value == _user) return;
+                _user = value;
+                OnPropertyChanged(nameof(User));
             }
         }
         
@@ -31,11 +29,9 @@ namespace AvaloniaClientMVVM.ViewModels
             get => _role;
             set
             {
-                if (value != _role)
-                {
-                    _role = value;
-                    OnPropertyChanged(nameof(Role));
-                }
+                if (value == _role) return;
+                _role = value;
+                OnPropertyChanged(nameof(Role));
             }
         }
         public ObservableCollection<User> Users
@@ -43,11 +39,9 @@ namespace AvaloniaClientMVVM.ViewModels
             get => _users;
             set
             {
-                if (value != _users)
-                {
-                    _users = value;
-                    OnPropertyChanged();
-                }
+                if (value == _users) return;
+                _users = value;
+                OnPropertyChanged();
             }
         }
 
@@ -56,25 +50,23 @@ namespace AvaloniaClientMVVM.ViewModels
             get => _roles;
             set
             {
-                if (value != _roles)
-                {
-                    _roles = value;
-                    OnPropertyChanged();
-                }
+                if (value == _roles) return;
+                _roles = value;
+                OnPropertyChanged();
             }
         }
         public MainWindowViewModel()
         {
             _users = new ObservableCollection<User>
             {
-                new User{Id = 1, CreationDate = DateTime.Now, Name = "Владимир", Surname = "Бурбах"},
-                new User{Id = 2, CreationDate = DateTime.Now, Name = "Андрей", Surname = "Бурбах"},
-                new User{Id = 3, CreationDate = DateTime.Now, Name = "Ксения", Surname = "Алексеева"}
+                new() {Id = 1, CreationDate = DateTime.Now, Name = "Владимир", Surname = "Бурбах"},
+                new() {Id = 2, CreationDate = DateTime.Now, Name = "Андрей", Surname = "Бурбах"},
+                new() {Id = 3, CreationDate = DateTime.Now, Name = "Ксения", Surname = "Алексеева"}
             };
             _roles = new ObservableCollection<Role>
             {
-                new Role { Id = 1, CreationDate = DateTime.Now, RoleName = "Администратор" },
-                new Role { Id = 2, CreationDate = DateTime.Now, RoleName = "Пользователь" },
+                new() { Id = 1, CreationDate = DateTime.Now, RoleName = "Администратор" },
+                new() { Id = 2, CreationDate = DateTime.Now, RoleName = "Пользователь" },
             };
         }
 

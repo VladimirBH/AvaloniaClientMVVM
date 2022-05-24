@@ -13,16 +13,24 @@
     <Design.DataContext>
         <vm:MainWindowViewModel/>
     </Design.DataContext>
-    <Grid RowDefinitions="6*, 1*">
-        <TabControl Grid.Row="0">
-            <TabItem Header="Пользователи" VerticalContentAlignment="Center">
-                <DataGrid Resources="{Binding Users}"></DataGrid>
-            </TabItem>
-            <TabItem Header="Роли" VerticalContentAlignment="Center">
-                <DataGrid Resources="{Binding Roles}"></DataGrid>
-            </TabItem>
-        </TabControl>
-        <Button Name="ButtonSubmit" Classes="List" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Center" Width="200" HorizontalContentAlignment="Center" Content="Выйти"/>
-    </Grid>
+    <StackPanel>
+        <Grid RowDefinitions="6*, 1*">
+            <TabControl Grid.Row="0">
+                <TabItem Header="Пользователи" VerticalContentAlignment="Center">
+                    <DataGrid Name="DataGridUsers" Items="{Binding Users}">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Имя" Binding="{Binding Name}"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Фамилия" Binding="{Binding Surname}"></DataGridTextColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </TabItem>
+                <TabItem Header="Роли" VerticalContentAlignment="Center">
+                    <DataGrid Name="DataGridRoles" AutoGenerateColumns="True" Items="{Binding Roles}"></DataGrid>
+                </TabItem>
+            </TabControl>
+            <Button Name="ButtonSubmit" Classes="List" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Center" Width="200" HorizontalContentAlignment="Center" Content="Выйти" Margin="0,15,15, 0"/>
+        </Grid>
+    </StackPanel>
+    
 
 </Window>

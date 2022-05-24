@@ -17,9 +17,9 @@ namespace AvaloniaClientMVVM
         {
             if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
             {
-                desktop.MainWindow = new MainWindow
+                desktop.MainWindow = new SplashScreen()
                 {
-                    DataContext = new MainWindowViewModel(),
+                    DataContext = new SplashScreenViewModel(),
                 };
             }
 

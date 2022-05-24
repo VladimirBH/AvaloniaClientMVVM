@@ -5,8 +5,9 @@
     <Application.DataTemplates>
         <local:ViewLocator/>
     </Application.DataTemplates>
-
     <Application.Styles>
         <FluentTheme Mode="Light"/>
+        <StyleInclude Source="avares://AvaloniaClientMVVM/Styles/LightStyle.axaml" />
+        <StyleInclude Source="avares://Avalonia.Controls.DataGrid/Themes/Default.xaml"/>
     </Application.Styles>
 </Application>
